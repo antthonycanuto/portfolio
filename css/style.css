@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -57,7 +58,7 @@ body {
     align-items: center;
     height: 377px;
     color: #fff;
-    padding: 160px 0 60px 0;
+    padding: 60px 0 60px 0;
 }
 
 .profile-avatar img {
@@ -88,6 +89,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #2c3e50;
+  margin: 60px 0 10px 0;
 }
 .portifolio-item {
   width: calc(100%-40px);
@@ -101,5 +103,4 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 20px;
 }
