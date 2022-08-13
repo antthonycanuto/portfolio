@@ -14,6 +14,7 @@ body {
   height: 100px;
   width: 100%;
   padding: 20px;
+  position: fixed;
 }
 
 .nav-main {
@@ -56,7 +57,7 @@ body {
     align-items: center;
     height: 377px;
     color: #fff;
-    padding: 60px 0;
+    padding: 160px 0 60px 0;
 }
 
 .profile-avatar img {
@@ -65,11 +66,40 @@ body {
 
 .profile-name {
     margin: 35px 0 0 0;
+    font-size: 2rem;
 }
 .profile-description {
     margin: 0;
+    font-size: 1rem;
 }
 
 .div-profile {
     text-align: center;
+}
+
+#portifolio {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto ;
+}
+
+.portifolio-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2c3e50;
+}
+.portifolio-item {
+  width: calc(100%-40px);
+  max-width: 420px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.portifolio-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
 }
